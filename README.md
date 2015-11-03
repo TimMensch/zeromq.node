@@ -1,6 +1,16 @@
-# zmq &nbsp;&nbsp;[![Build Status](https://travis-ci.org/JustinTulloss/zeromq.node.png)](https://travis-ci.org/JustinTulloss/zeromq.node) &nbsp;[![Build status](https://ci.appveyor.com/api/projects/status/n0h0sjs127eadfuo/branch/windowsbuild?svg=true)](https://ci.appveyor.com/project/reqshark/zeromq-node)
+# zmq
 
 [ØMQ](http://www.zeromq.org/) bindings for node.js.
+
+## Fork of [zeromq.node](https://github.com/JustinTulloss/zeromq.node)
+
+Differences:
+
+* Updated to 4.0.7 Windows binaries
+* Added libsodium Windows binaries and ZeroMQ HAVE_LIBSODIUM
+* Also added a ZeroMQ 4.1.3 binaries in 4.1.3 branch, but 4.1.3 causes
+  my Node app to crash out shortly after starting the curve conversation,
+  with no indication as to why, so I'm not using the 4.1.3 build.
 
 ## Installation
 
