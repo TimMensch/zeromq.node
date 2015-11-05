@@ -6,11 +6,8 @@
 
 Differences:
 
-* Updated to 4.0.7 Windows binaries
-* Added libsodium Windows binaries and ZeroMQ HAVE_LIBSODIUM
-* Also added a ZeroMQ 4.1.3 binaries in 4.1.3 branch, but 4.1.3 causes
-  my Node app to crash out shortly after starting the curve conversation,
-  with no indication as to why, so I'm not using the 4.1.3 build.
+* Updated to 4.1.3 Windows binaries and include files
+* Added libsodium Windows binaries
 
 ## Installation
 
